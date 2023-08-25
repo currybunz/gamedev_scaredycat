@@ -72,11 +72,8 @@ public class PlayerMovement : MonoBehaviour
         animated.SetInteger("state", (int)state);
     }
 
-<<<<<<< Updated upstream
     private bool IsGrounded()
     {
         return Physics2D.BoxCast(collide.bounds.center, collide.bounds.size, 0f, Vector2.down, .1f, jumpGround);
     }
-=======
->>>>>>> Stashed changes
 }
