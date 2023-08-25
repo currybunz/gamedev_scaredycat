@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Trap
   - Potion
+  - Key
+  - CollectibleKey
   layers:
   - Default
   - TransparentFX
