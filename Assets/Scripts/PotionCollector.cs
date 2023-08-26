@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PotionCollector : MonoBehaviour
 {
+    [SerializeField] private AudioSource collectionSoundEffect;
     
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,7 @@ public class PotionCollector : MonoBehaviour
     {
          if(collision.gameObject.CompareTag("Potion"))
         {
+            collectionSoundEffect.Play();
             Destroy(collision.gameObject);
         }
     }
