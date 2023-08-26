@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class KeyCollector : MonoBehaviour
 {
+    [SerializeField] private AudioSource collectionSoundEffect;
     public GameObject Player;
     public float speed = 4f;
 
@@ -44,6 +45,7 @@ public class KeyCollector : MonoBehaviour
     {
         if (collision.CompareTag("Player") && !isCollected)
         {
+            collectionSoundEffect.Play();
             isCollected = true;
             GetComponent<Collider2D>().enabled = false;
         }

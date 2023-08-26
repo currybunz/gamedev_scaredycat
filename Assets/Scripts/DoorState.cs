@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DoorState : MonoBehaviour
 {
+    [SerializeField] private AudioSource interactSoundEffect;
     public Sprite openSprite; // Sprite for the open door
     public KeyCollector keyCollector;
 
@@ -20,8 +21,8 @@ public class DoorState : MonoBehaviour
         Debug.Log("Collided with object tag: " + collision.gameObject.tag);
         if (collision.CompareTag("Player") && !isOpen && keyCollector.IsCollected && keyCollector != null)
         {
+            interactSoundEffect.Play();
             isOpen = true;
-
             // Change the sprite to the open door sprite
             spriteRenderer.sprite = openSprite;
         }
