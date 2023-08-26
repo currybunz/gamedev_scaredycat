@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DoorState : MonoBehaviour
 {
@@ -25,6 +26,12 @@ public class DoorState : MonoBehaviour
             isOpen = true;
             // Change the sprite to the open door sprite
             spriteRenderer.sprite = openSprite;
+            Invoke("CompleteLevel", 2f);
         }
+    }
+
+    private void CompleteLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
