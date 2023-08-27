@@ -62,6 +62,17 @@ public class PlayerLife : MonoBehaviour
                 livesUI[i].enabled = false;
             }
         }
+        else
+        {
+            DieAndRestartScene();
+        }
+    }
+
+    public void Die()
+    {
+        rb.bodyType = RigidbodyType2D.Static;
+        animated.SetTrigger("death");
+        // You can also add a game over screen or logic here if needed.
     }
 
     private void DieAndRestartScene()
