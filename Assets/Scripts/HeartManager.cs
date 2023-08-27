@@ -5,32 +5,44 @@ using UnityEngine.UI;
 
 public class HeartManager : MonoBehaviour
 {
-    [SerializeField] private float startingHealth;
-    public float currentHealth { get; private set; }
-    private Animator animated;
-    private bool dead;
+    [SerializeField] private int maxLives = 3;
+    private int currentLives;
+    public Image[] heartImages;
 
-    private void Awake()
+    private void Start()
     {
-        currentHealth = startingHealth;
-        animated = GetComponent<Animator>();
+        currentLives = maxLives;
+        UpdateHeartUI();
     }
-    public void TakeDamage(float _damage)
-    {
-        currentHealth = Mathf.Clamp(currentHealth - _damage, 0, startingHealth);
 
-        if (currentHealth > 0)
+    public void TakeDamage()
+    {
+        if (currentLives > 0)
         {
-            animated.SetTrigger("death");
-            //iframes
-        }
-        else
-        {
-            if (!dead)
+            currentLives--;
+
+            if (currentLives <= 0)
             {
-                animated.SetTrigger("death");
-                GetComponent<PlayerMovement>().enabled = false;
-                dead = true;
+                // Implement game over logic here
+                Debug.Log("Game Over");
+            }
+            else
+            {
+                UpdateHeartUI();
+            }
+        }
+    }
+    private void UpdateHeartUI()
+    {
+        for (int i = 0; i < heartImages.Length; i++)
+        {
+            if (i < currentLives)
+            {
+                heartImages[i].gameObject.SetActive(true);
+            }
+            else
+            {
+                heartImages[i].gameObject.SetActive(false);
             }
         }
     }
