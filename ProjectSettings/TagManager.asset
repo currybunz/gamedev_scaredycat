@@ -8,6 +8,7 @@ TagManager:
   - Potion
   - Key
   - Ladder
+  - Obstacle
   layers:
   - Default
   - TransparentFX
