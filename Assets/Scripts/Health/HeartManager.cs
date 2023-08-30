@@ -21,7 +21,9 @@ public class HeartManager : MonoBehaviour
 
         if (currentHealth > 0)
         {
-            animated.SetTrigger("death");
+            animated.SetTrigger("hurt");
+            //reset player's position to starting position
+            transform.position = new Vector3(-4.2f, -2.34f, 0.082f);
             //iframes
         }
         else
@@ -38,4 +40,5 @@ public class HeartManager : MonoBehaviour
     // {
     //     currentHealth = Mathf.Clamp(currentHealth + _value, 0, startingHealth);
     // }
+
 }
