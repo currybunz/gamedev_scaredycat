@@ -8,7 +8,7 @@ public class HeartManager : MonoBehaviour
     [SerializeField] private float startingHealth;
     public float currentHealth { get; private set; }
     private Animator animated;
-    public bool dead;
+    private bool dead;
     
 
     private void Awake()
@@ -25,7 +25,7 @@ public class HeartManager : MonoBehaviour
         {
             animated.SetTrigger("hurt");
             //reset player's position to starting position
-            transform.position = new Vector3(-4.2f, -2.34f, 0.082f);
+            transform.position = new Vector3(-4.2f, 0f, 0.082f);
             //iframes
         }
         else
