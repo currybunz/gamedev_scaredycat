@@ -9,11 +9,13 @@ public class HeartManager : MonoBehaviour
     public float currentHealth { get; private set; }
     private Animator animated;
     private bool dead;
+    private UIManager uiManager;
 
     private void Awake()
     {
         currentHealth = startingHealth;
         animated = GetComponent<Animator>();
+        uiManager = FindObjectOfType<UIManager>();
     }
     public void TakeDamage(float _damage)
     {
@@ -31,8 +33,11 @@ public class HeartManager : MonoBehaviour
             if (!dead)
             {
                 animated.SetTrigger("death");
-                GetComponent<PlayerMovement>().enabled = false;
+                /*GetComponent<PlayerMovement>().enabled = false;*/
                 dead = true;
+
+                //show gameover screen
+                uiManager.GameOver();
             }
         }
     }
