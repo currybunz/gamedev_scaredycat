@@ -8,14 +8,14 @@ public class HeartManager : MonoBehaviour
     [SerializeField] private float startingHealth;
     public float currentHealth { get; private set; }
     private Animator animated;
-    private bool dead;
-    private UIManager uiManager;
+    public bool dead;
+    
 
     private void Awake()
     {
         currentHealth = startingHealth;
         animated = GetComponent<Animator>();
-        uiManager = FindObjectOfType<UIManager>();
+
     }
     public void TakeDamage(float _damage)
     {
@@ -32,18 +32,21 @@ public class HeartManager : MonoBehaviour
         {
             if (!dead)
             {
+                Debug.Log("Game Over!");
+                PlayerManager.isGameOver = true;
                 animated.SetTrigger("death");
-                /*GetComponent<PlayerMovement>().enabled = false;*/
                 dead = true;
 
-                //show gameover screen
-                uiManager.GameOver();
+                /*gameObject.SetActive(false);*/
+
+
+                GetComponent<PlayerMovement>().enabled = false;
             }
         }
     }
-    // public void AddHealth(float _value)
-    // {
-    //     currentHealth = Mathf.Clamp(currentHealth + _value, 0, startingHealth);
-    // }
+     public void AddHealth(float _value)
+     {
+        currentHealth = Mathf.Clamp(currentHealth + _value, 0, startingHealth);
+     }
 
 }
