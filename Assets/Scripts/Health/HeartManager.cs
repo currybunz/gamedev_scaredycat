@@ -10,6 +10,7 @@ public class HeartManager : MonoBehaviour
     private Animator animated;
     private bool dead;
     
+    [SerializeField] private AudioSource deathSoundEffect;
 
     private void Awake()
     {
@@ -20,6 +21,8 @@ public class HeartManager : MonoBehaviour
     public void TakeDamage(float _damage)
     {
         currentHealth = Mathf.Clamp(currentHealth - _damage, 0, startingHealth);
+        
+        deathSoundEffect.Play();
 
         if (currentHealth > 0)
         {
