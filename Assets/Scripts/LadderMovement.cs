@@ -15,7 +15,7 @@ public class LadderMovement : MonoBehaviour
     void Update()
     {
         vertical = Input.GetAxis("Vertical");
-        if(isLadder&& Mathf.Abs(vertical) >= 0f)
+        if(isLadder&& Mathf.Abs(vertical) > 0f)
         {
             isClimbing = true;
         }

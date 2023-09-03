@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerManager : MonoBehaviour
+public class ItemCollector : MonoBehaviour
 {
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +15,13 @@ public class PlayerManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.CompareTag("Potion"))
+        {
+            Destroy(collision.gameObject);
+        }
     }
 }

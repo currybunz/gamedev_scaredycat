@@ -18,7 +18,7 @@ public class TimeController : MonoBehaviour
         }
         else
         {
-            PlayerManager.isGameOver = true;
+            GameOver();
         }
 
         DisplayTime(timeValue);

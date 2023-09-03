@@ -8,8 +8,6 @@ TagManager:
   - Potion
   - Key
   - Ladder
-  - Obstacle
-  - Door
   layers:
   - Default
   - TransparentFX
