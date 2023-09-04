@@ -10,6 +10,7 @@ TagManager:
   - Ladder
   - Obstacle
   - Door
+  - King
   layers:
   - Default
   - TransparentFX
