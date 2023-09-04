@@ -5,10 +5,13 @@ using UnityEngine.UI;
 
 public class PotionCollector : MonoBehaviour
 {
-    [SerializeField] private AudioSource collectionSoundEffect;
+    // [SerializeField] private AudioSource collectionSoundEffect;
+    [SerializeField] private AudioSource potionSoundEffect;
+    [SerializeField] private AudioSource kingSoundEffect;
     [SerializeField] private Text pontsText;
 
-    private int Potion = 0;
+    private int Points = 0;
+    
     
     // Start is called before the first frame update
     void Start()
@@ -24,13 +27,24 @@ public class PotionCollector : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-         if(collision.gameObject.CompareTag("Potion"))
+         if(collision.gameObject.CompareTag("Potion") || collision.gameObject.CompareTag("King"))
         {
-            collectionSoundEffect.Play();
+            // collectionSoundEffect.Play();
             Destroy(collision.gameObject);
-            Potion += 100;
-            pontsText.text = "Points: " + Potion;
+            if (collision.gameObject.CompareTag("Potion"))
+            {
+                potionSoundEffect.Play();
+                Points += 100;
+            }
+            else if (collision.gameObject.CompareTag("King"))
+            {
+                kingSoundEffect.Play();
+                Points += 300;
+            }
+            pontsText.text = "Points: " + Points.ToString();
         }
     }
 
 }
+
+
