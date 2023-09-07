@@ -26,7 +26,7 @@ public class DoorState : MonoBehaviour
             isOpen = true;
             // Change the sprite to the open door sprite
             spriteRenderer.sprite = openSprite;
-            Invoke("CompleteLevel", 2f);
+            Invoke("CompleteLevel", 1f);
         }
     }
 

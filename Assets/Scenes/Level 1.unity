@@ -2395,7 +2395,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -4.199997}
+  m_AnchoredPosition: {x: 0, y: -4.200012}
   m_SizeDelta: {x: 247.20001, y: 84.89}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &20847561
@@ -4209,7 +4209,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -6.461487, y: -3.1360016}
+  m_AnchoredPosition: {x: -6.461487, y: -3.1359863}
   m_SizeDelta: {x: 10, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1662158497
@@ -14966,7 +14966,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a60beaa649406543ab6e3ec06705d1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  potionSoundEffect: {fileID: 0}
+  potionSoundEffect: {fileID: 2132357774}
   kingSoundEffect: {fileID: 0}
   pontsText: {fileID: 1135887870}
 --- !u!82 &2132357774
