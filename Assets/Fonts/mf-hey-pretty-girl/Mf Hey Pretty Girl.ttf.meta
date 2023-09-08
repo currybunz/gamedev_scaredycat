@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 77efde8db34ac924880d914574dc5828
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Mf Hey Pretty Girl
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 74f46f019dbf2c148a485b8f9c80a748, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
