@@ -262,7 +262,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 334, y: -125}
+  m_AnchoredPosition: {x: 334, y: -158.00002}
   m_SizeDelta: {x: 97.9686, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &268004132
@@ -409,7 +409,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -335, y: -125}
+  m_AnchoredPosition: {x: -335, y: -158}
   m_SizeDelta: {x: 97.9686, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &518876292
@@ -925,7 +925,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 112.8}
+  m_AnchoredPosition: {x: 0, y: 155}
   m_SizeDelta: {x: 308.1422, y: 60.2656}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1148899655
@@ -1130,7 +1130,7 @@ GameObject:
   - component: {fileID: 2069941327}
   - component: {fileID: 2069941326}
   - component: {fileID: 2069941328}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Text (Legacy) (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1154,8 +1154,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -6.9978}
-  m_SizeDelta: {x: 704.757, y: 179.33}
+  m_AnchoredPosition: {x: 0, y: -6.8075}
+  m_SizeDelta: {x: 748.336, y: 256.385}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2069941326
 MonoBehaviour:
@@ -1179,7 +1179,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 652f7165b7c30ab46af6c4aad90a639b, type: 2}
-    m_FontSize: 20
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -1189,8 +1189,14 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 
+    m_LineSpacing: 1.4
+  m_Text: On her way to school, Clover rescues Zee, a cat dangling dangerously from
+    a balcony. But Zee is no ordinary feline, he is the strongest sorcerer in the
+    Cat Kingdom, possessing immense power. Driven by fascination and curiosity, Clover
+    followed Zee into the Cat Kingdom. Little did she know, she had fallen into the
+    hands of a sinister sorcerer. Zee casts a spell upon Clover, transforming her
+    into a cat to keep as his captive potion tester. Now, Clover must find a way
+    to break the enchantment and escape before sunset!
 --- !u!222 &2069941327
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1212,11 +1218,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.1
-  fullText: While on her way to school, Clover rescues Zee, a cat dangling dangerously
-    from a balcony. To her surprise, she found out that Zee is no ordinary feline.
-    As the strongest sorcerer in the Cat Kingdom, he possesses immense power. Driven
-    by fascination and curiosity, Clover followed Zee into this mysterious realm.
-    Little did Clover know, she has fallen into the hands of the sinister sorcerer
-    who harbours dark intentions. Zee casts a spell upon Clover, transforming her
-    into a cat to keep as his captive potion tester. Now, Clover must find a way
-    to break the enchantment and escape the cat kingdom before sunset!
+  fullText: On her way to school, Clover rescues Zee, a cat dangling dangerously
+    from a balcony. But Zee is no ordinary feline, he is the strongest sorcerer in
+    the Cat Kingdom, possessing immense power. Driven by fascination and curiosity,
+    Clover followed Zee into the Cat Kingdom. Little did she know, she had fallen
+    into the hands of a sinister sorcerer. Zee casts a spell upon Clover, transforming
+    her into a cat to keep as his captive potion tester. Now, Clover must find a
+    way to break the enchantment and escape the cat kingdom before sunset!

@@ -259,7 +259,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 26.422, y: 4.8545}
+  m_AnchoredPosition: {x: 29, y: 80}
   m_SizeDelta: {x: 47.155, y: 45.94}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &152373026
@@ -335,7 +335,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -277, y: 58}
+  m_AnchoredPosition: {x: -324, y: 68}
   m_SizeDelta: {x: 34.198, y: 35.408}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &189966363
@@ -412,8 +412,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 183.35, y: -49.861}
-  m_SizeDelta: {x: 220.61, y: 65.571}
+  m_AnchoredPosition: {x: 224.337, y: -66.743}
+  m_SizeDelta: {x: 281.833, y: 77.614}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &349219728
 MonoBehaviour:
@@ -451,7 +451,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 652f7165b7c30ab46af6c4aad90a639b, type: 2}
-    m_FontSize: 20
+    m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -461,7 +461,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_LineSpacing: 1.2
   m_Text: Keep an eye out for the patrolling guards
 --- !u!222 &349219730
 CanvasRenderer:
@@ -509,7 +509,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -327, y: -128}
+  m_AnchoredPosition: {x: -335, y: -158}
   m_SizeDelta: {x: 97.9686, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &518876292
@@ -737,7 +737,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -276, y: -2.999998}
+  m_AnchoredPosition: {x: -323, y: -2.999998}
   m_SizeDelta: {x: 28.376, y: 30.231}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &629112209
@@ -941,7 +941,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 26.422, y: -63}
+  m_AnchoredPosition: {x: 25, y: -85}
   m_SizeDelta: {x: 33.882, y: 39.33}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &945984992
@@ -1155,7 +1155,7 @@ GameObject:
   - component: {fileID: 1121146608}
   - component: {fileID: 1121146607}
   m_Layer: 5
-  m_Name: rotatingPlatform
+  m_Name: platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1178,7 +1178,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 26.423, y: 58}
+  m_AnchoredPosition: {x: 25, y: -3}
   m_SizeDelta: {x: 47.155, y: 12.803}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1121146607
@@ -1254,7 +1254,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 112.8}
+  m_AnchoredPosition: {x: 0, y: 137}
   m_SizeDelta: {x: 308.1422, y: 60.2656}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1148899655
@@ -1335,8 +1335,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -125.43, y: 13.668}
-  m_SizeDelta: {x: 228.21, y: 72.665}
+  m_AnchoredPosition: {x: -146.349, y: 8.849993}
+  m_SizeDelta: {x: 270.687, y: 82.947}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1251100325
 MonoBehaviour:
@@ -1374,7 +1374,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 652f7165b7c30ab46af6c4aad90a639b, type: 2}
-    m_FontSize: 20
+    m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -1384,7 +1384,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_LineSpacing: 1.2
   m_Text: Collect Potions for points. These potions help turn Clover back to human.
 --- !u!222 &1251100327
 CanvasRenderer:
@@ -1430,8 +1430,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -125.27999, y: -51.902996}
-  m_SizeDelta: {x: 227.91, y: 46.611}
+  m_AnchoredPosition: {x: -152.575, y: -66}
+  m_SizeDelta: {x: 257.556, y: 53.207}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1290597321
 MonoBehaviour:
@@ -1469,7 +1469,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 652f7165b7c30ab46af6c4aad90a639b, type: 2}
-    m_FontSize: 20
+    m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -1479,7 +1479,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_LineSpacing: 1.2
   m_Text: Look out for the rotating saws
 --- !u!222 &1290597323
 CanvasRenderer:
@@ -1673,8 +1673,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 186.71, y: 4}
-  m_SizeDelta: {x: 228.49, y: 62.411}
+  m_AnchoredPosition: {x: 228.62907, y: 87.543076}
+  m_SizeDelta: {x: 291.9, y: 73.874}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1536101001
 MonoBehaviour:
@@ -1712,7 +1712,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 652f7165b7c30ab46af6c4aad90a639b, type: 2}
-    m_FontSize: 20
+    m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -1722,7 +1722,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_LineSpacing: 1.2
   m_Text: The trampoline helps you to jump higher. Use them wisely.
 --- !u!222 &1536101003
 CanvasRenderer:
@@ -1852,8 +1852,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 187, y: 71}
-  m_SizeDelta: {x: 227.902, y: 66}
+  m_AnchoredPosition: {x: 229, y: 11.761}
+  m_SizeDelta: {x: 291.149, y: 78.122}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1835127167
 MonoBehaviour:
@@ -1891,7 +1891,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 652f7165b7c30ab46af6c4aad90a639b, type: 2}
-    m_FontSize: 20
+    m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -1901,7 +1901,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_LineSpacing: 1.2
   m_Text: The moving platforms help you get across long distance gaps
 --- !u!222 &1835127169
 CanvasRenderer:
@@ -1946,7 +1946,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -277, y: -66.66}
+  m_AnchoredPosition: {x: -324, y: -81}
   m_SizeDelta: {x: 32.009, y: 32.009}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1863578418
@@ -2025,7 +2025,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 317, y: -128}
+  m_AnchoredPosition: {x: 330, y: -158}
   m_SizeDelta: {x: 97.9686, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1963457090
@@ -2109,7 +2109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.990566, g: 0.95998937, b: 0.80900675, a: 1}
+  m_Color: {r: 1, g: 0.79784364, b: 0.9710851, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2170,8 +2170,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -125.43, y: 78.333}
-  m_SizeDelta: {x: 228.22, y: 56.665}
+  m_AnchoredPosition: {x: -152.745, y: 82.66499}
+  m_SizeDelta: {x: 257.906, y: 64.683}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2069941326
 MonoBehaviour:
@@ -2195,7 +2195,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 652f7165b7c30ab46af6c4aad90a639b, type: 2}
-    m_FontSize: 20
+    m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -2205,7 +2205,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_LineSpacing: 1.2
   m_Text: Collect the key to unlock the door
 --- !u!222 &2069941327
 CanvasRenderer:

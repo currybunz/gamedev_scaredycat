@@ -15,7 +15,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - UI Text
   - Water
   - UI
   - Ground
@@ -53,6 +53,9 @@ TagManager:
     locked: 0
   - name: Objects
     uniqueID: 384562155
+    locked: 0
+  - name: UI Text
+    uniqueID: 839553049
     locked: 0
   - name: Default
     uniqueID: 0
