@@ -31,9 +31,10 @@ public class HeartManager : MonoBehaviour
         if (currentHealth > 0)
         {
             animated.SetTrigger("hurt");
+            //iframes, makes player invulnerable for a certain duration
             StartCoroutine(Invulnerability());
-
-            //iframes
+            //resets player position to starting point
+            transform.position = new Vector3(-4.2f, -2.34f, 1f);
         }
         else
         {
